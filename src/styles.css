@@ -1,1 +1,17 @@
-/* You can add global styles to this file, and also import other style files */
+html {
+  font-size: 200%;
+  box-sizing: border-box;
+  font-family: Rubik;
+}
+@media (max-width: 480px) {
+  html {
+    font-size: 100%;
+    box-sizing: border-box;
+    font-family: Rubik;
+  }
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+}

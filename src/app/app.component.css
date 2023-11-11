@@ -1,0 +1,22 @@
+#app {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.strength-section {
+  height: 20px;
+  width: 50px;
+  display: inline-block;
+  margin-right: 5px;
+}
+#password {
+  padding: 15px;
+  font-size: 1em;
+  border-width: 0px;
+  background-color: rgb(228, 228, 228);
+  margin-bottom: 5px;
+}
+#password:focus {
+  outline: none;
+}
