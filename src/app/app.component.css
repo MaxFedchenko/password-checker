@@ -1,16 +1,17 @@
-#app {
+#content {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
 }
-.strength-section {
-  height: 20px;
-  width: 50px;
-  display: inline-block;
-  margin-right: 5px;
+#content > div {
+  max-width: 100%;
+  padding: 10px;
 }
 #password {
+  display: block;
+  width: 18em;
+  max-width: 100%;
   padding: 15px;
   font-size: 1em;
   border-width: 0px;
@@ -19,4 +20,10 @@
 }
 #password:focus {
   outline: none;
+}
+.strength-section {
+  height: 20px;
+  width: 50px;
+  display: inline-block;
+  margin-right: 5px;
 }

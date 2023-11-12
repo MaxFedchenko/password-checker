@@ -1,14 +1,12 @@
-<div id="app">
+<div id="content">
   <div>
-    <div>
-      <input
-        id="password"
-        placeholder="Password"
-        type="password"
-        [(ngModel)]="password"
-        (input)="checkPasswordStrength()"
-      />
-    </div>
+    <input
+      id="password"
+      placeholder="Password"
+      type="password"
+      [(ngModel)]="password"
+      (input)="checkPasswordStrength()"
+    />
     <div class="strength-section" [style.background-color]="sections[0]"></div>
     <div class="strength-section" [style.background-color]="sections[1]"></div>
     <div class="strength-section" [style.background-color]="sections[2]"></div>
